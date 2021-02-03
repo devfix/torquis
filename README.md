@@ -11,6 +11,7 @@ _______  _____   ______  _____  _     _ _____ _______
 ## Features
 * small header-only library
 * very lightweight, only one file
+* various function overloads for string_views, strings and c-strings
 * MIT license
 
 ## Functions
