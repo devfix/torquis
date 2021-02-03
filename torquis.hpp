@@ -1,6 +1,16 @@
-//
-// Created by core on 03/02/2021.
-//
+/*
+ *
+ *  _______  _____   ______  _____  _     _ _____ _______
+ *     |    |     | |_____/ |   __| |     |   |   |______
+ *     |    |_____| |    \_ |____\| |_____| __|__ ______|
+ *
+ *                    c++ string library
+ *
+ *                        version 0.1
+ *            written by Tristan Krause aka. devfix
+ *              https://github.com/devfix/torquis
+ *
+ */
 
 #ifndef TORQUIS_HPP
 #define TORQUIS_HPP
