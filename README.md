@@ -23,7 +23,7 @@ _______  _____   ______  _____  _     _ _____ _______
 
 ## CMake integration
 ### With FetchContent
-If you are using CMake version 1.14 or later you can use [FetchContent](https://cmake.org/cmake/help/latest/module/FetchContent.html):
+If you are using CMake version 1.14 or later you can use [FetchContent](https://cmake.org/cmake/help/latest/module/FetchContent.html) with `FetchContent_MakeAvailable`:
 ```cmake
 Include(FetchContent)
 
