@@ -1,4 +1,4 @@
-[torquis.hpp]: https://github.com/devfix/torquis/blob/main/torquis.hpp
+[torquis.hpp]: https://github.com/devfix/torquis/blob/main/include/torquis.hpp
 
 ```
 _______  _____   ______  _____  _     _ _____ _______
