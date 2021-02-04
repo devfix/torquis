@@ -3,7 +3,7 @@
 //
 
 #include <catch2/catch.hpp>
-#include <torquis.hpp>
+#include <include/torquis.hpp>
 
 TEST_CASE("inter - split & join - 0")
 {

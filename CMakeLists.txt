@@ -30,6 +30,6 @@ FetchContent_MakeAvailable(Catch2)
 # ---------------------------------------------------------------------------------------
 # create testrunner target
 # ---------------------------------------------------------------------------------------
-add_executable(testrunner testrunner.cpp test_split.cpp test_join.cpp test_inter.cpp)
+add_executable(testrunner test/testrunner.cpp test/test_split.cpp test/test_join.cpp test/test_inter.cpp)
 target_include_directories(testrunner PRIVATE .)
 target_link_libraries(testrunner PRIVATE Catch2::Catch2)

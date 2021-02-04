@@ -18,5 +18,20 @@ _______  _____   ______  _____  _     _ _____ _______
 * split
 * join
 
-## Basic usage
+## Simple usage
 * copy the <b>[torquis.hpp][torquis.hpp]</b> file into your project and include it
+
+## CMake integration
+If you are using CMake version 1.14 or later you can use [FetchContent](https://cmake.org/cmake/help/latest/module/FetchContent.html):
+```cmake
+Include(FetchContent)
+
+FetchContent_Declare(
+        torquis
+        GIT_REPOSITORY https://github.com/devfix/torquis.git
+        GIT_TAG        v0.1)
+FetchContent_MakeAvailable(torquis)
+
+add_executable(my_fancy_executable main.cpp)
+target_include_directories(my_fancy_executable PRIVATE ${torquis_SOURCE_DIR}/include)
+```
