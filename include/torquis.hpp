@@ -233,6 +233,8 @@ namespace torquis
 		return join<CharT, StringT>(vec, std::basic_string_view<CharT>(delim));
 	}
 
+
+
 	/*
 	 * function group: tolower
 	 */
@@ -299,6 +301,8 @@ namespace torquis
 		tolower(copy);
 		return copy;
 	}
+
+
 
 	/*
 	 * function group: toupper
