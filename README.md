@@ -17,6 +17,8 @@ _______  _____   ______  _____  _     _ _____ _______
 ## Functions
 * split
 * join
+* tolower
+* toupper
 
 ## Simple usage
 * copy the <b>[torquis.hpp][torquis.hpp]</b> file into your project and include it
