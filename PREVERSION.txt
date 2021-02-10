@@ -1,0 +1,3 @@
+* update version in torquis.hpp
+* update version in README.md
+* update feature list in README.md
