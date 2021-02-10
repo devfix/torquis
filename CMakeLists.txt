@@ -7,7 +7,7 @@ find_program(CCACHE_PROGRAM ccache)
 if (CCACHE_PROGRAM)
     set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE "${CCACHE_PROGRAM}")
 else ()
-    message(STATUS "ccache not found")
+    message(STATUS "ccache not found (optional, not an error)")
 endif ()
 
 
@@ -26,6 +26,7 @@ FetchContent_Declare(
         GIT_REPOSITORY https://github.com/catchorg/Catch2.git
         GIT_TAG        v2.13.1)
 FetchContent_MakeAvailable(Catch2)
+
 
 # ---------------------------------------------------------------------------------------
 # create testrunner target
