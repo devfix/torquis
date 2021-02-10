@@ -6,7 +6,7 @@
  *
  *                    c++ string library
  *
- *                        version 0.1
+ *                        version 0.2
  *            written by Tristan Krause aka. devfix
  *              https://github.com/devfix/torquis
  *
