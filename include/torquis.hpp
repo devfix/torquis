@@ -21,6 +21,7 @@
 
 #define TORQUIS_INCLUDE_GUARD
 #include "torquis/join.hpp"
+#include "torquis/replace.hpp"
 #include "torquis/split.hpp"
 #include "torquis/tolower.hpp"
 #include "torquis/toupper.hpp"
