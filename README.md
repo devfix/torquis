@@ -22,7 +22,7 @@ _______  _____   ______  _____  _     _ _____ _______
 * replace
 
 ## Simple usage
-* copy the <b>[torquis.hpp][torquis.hpp]</b> file into your project and include it
+* copy the content of the `include` directory and include `torquis.hpp`
 
 ## CMake integration
 ### With FetchContent
