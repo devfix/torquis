@@ -3,7 +3,9 @@
 //
 
 #include <catch2/catch.hpp>
-#include <include/torquis.hpp>
+#define TORQUIS_INCLUDE_GUARD
+#include <include/torquis/split.hpp>
+#undef TORQUIS_INCLUDE_GUARD
 
 
 /*

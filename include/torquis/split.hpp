@@ -2,7 +2,7 @@
 // Created by core on 05/03/2021.
 //
 
-#ifndef TORQUIS_HPP
+#ifndef TORQUIS_INCLUDE_GUARD
 #error "Do not include this file directly, include tho torquis.hpp"
 #endif
 

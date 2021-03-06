@@ -19,6 +19,7 @@ _______  _____   ______  _____  _     _ _____ _______
 * join
 * tolower
 * toupper
+* replace
 
 ## Simple usage
 * copy the <b>[torquis.hpp][torquis.hpp]</b> file into your project and include it
@@ -32,7 +33,7 @@ Include(FetchContent)
 FetchContent_Declare(
         torquis
         GIT_REPOSITORY https://github.com/devfix/torquis.git
-        GIT_TAG        v0.2)
+        GIT_TAG        v0.3)
 FetchContent_MakeAvailable(torquis)
 
 add_executable(my_fancy_executable main.cpp)

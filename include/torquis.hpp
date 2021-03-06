@@ -6,7 +6,7 @@
  *
  *                    c++ string library
  *
- *                        version 0.2
+ *                        version 0.3
  *            written by Tristan Krause aka. devfix
  *              https://github.com/devfix/torquis
  *
@@ -19,9 +19,11 @@
 #include <string_view>
 #include <vector>
 
+#define TORQUIS_INCLUDE_GUARD
 #include "torquis/join.hpp"
 #include "torquis/split.hpp"
 #include "torquis/tolower.hpp"
 #include "torquis/toupper.hpp"
+#undef TORQUIS_INCLUDE_GUARD
 
 #endif //TORQUIS_HPP
