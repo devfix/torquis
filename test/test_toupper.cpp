@@ -2,12 +2,9 @@
 // Created by core on 10/02/2021.
 //
 
-#include <catch2/catch.hpp>
-#include <include/torquis.hpp>
 #include <cstring>
-#define TORQUIS_INCLUDE_GUARD
-#include <include/torquis/toupper.hpp>
-#undef TORQUIS_INCLUDE_GUARD
+#include <catch2/catch.hpp>
+#include <torquis.hpp>
 
 
 /*

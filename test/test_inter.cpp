@@ -3,7 +3,7 @@
 //
 
 #include <catch2/catch.hpp>
-#include <include/torquis.hpp>
+#include <torquis.hpp>
 
 /*
  * tests for character type: char

@@ -2,12 +2,9 @@
 // Created by core on 05/03/2021.
 //
 
-#include <catch2/catch.hpp>
 #include <cstring>
-
-#define TORQUIS_INCLUDE_GUARD
-#include <include/torquis/replace.hpp>
-#undef TORQUIS_INCLUDE_GUARD
+#include <catch2/catch.hpp>
+#include <torquis.hpp>
 
 
 TEST_CASE("replace/char/0")

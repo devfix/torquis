@@ -3,9 +3,7 @@
 //
 
 #include <catch2/catch.hpp>
-#define TORQUIS_INCLUDE_GUARD
-#include <include/torquis/join.hpp>
-#undef TORQUIS_INCLUDE_GUARD
+#include <torquis.hpp>
 
 /*
  * tests for character type: char
