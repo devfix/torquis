@@ -42,4 +42,4 @@ add_executable(testrunner ${include_files} ${torquis_include_files} ${TEST_SOURC
 target_include_directories(testrunner PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_link_libraries(testrunner PRIVATE Catch2::Catch2)
 
-set(TORQUIS_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/include PARENT_SCOPE)  # make torquis available
+set(torquis_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/include PARENT_SCOPE)  # make torquis available
