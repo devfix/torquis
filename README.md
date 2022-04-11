@@ -33,7 +33,7 @@ Include(FetchContent)
 FetchContent_Declare(
         torquis_git
         GIT_REPOSITORY https://github.com/devfix/torquis.git
-        GIT_TAG        v0.3.2)
+        GIT_TAG        v0.3.1)
 FetchContent_MakeAvailable(torquis_git)
 
 add_executable(my_fancy_executable main.cpp)
