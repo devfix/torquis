@@ -25,24 +25,20 @@ _______  _____   ______  _____  _     _ _____ _______
 * copy the content of the `include` directory and include `torquis.hpp`
 
 ## CMake integration
-### With FetchContent
 If you are using CMake version 1.14 or later you can use [FetchContent](https://cmake.org/cmake/help/latest/module/FetchContent.html) with `FetchContent_MakeAvailable`:
 ```cmake
 Include(FetchContent)
 
 FetchContent_Declare(
-        torquis_git
-        GIT_REPOSITORY https://github.com/devfix/torquis.git
-        GIT_TAG        v0.3.1)
-FetchContent_MakeAvailable(torquis_git)
+        torquis_targz
+        URL https://github.com/devfix/torquis/archive/refs/tags/XXX.tar.gz  # insert correct version here
+        URL_HASH SHA256=0  # insert correct hash here
+        DOWNLOAD_EXTRACT_TIMESTAMP 1
+)
+FetchContent_MakeAvailable(torquis_targz)
 
+# add library to target
 add_executable(my_fancy_executable main.cpp)
-target_include_directories(my_fancy_executable PRIVATE ${torquis_INCLUDE_DIRS})
-```
-### As subdirectory
-This project is also provided when torquis is used as a subdirectory. Assuming that torquis has been cloned to `my_libs/torquis`:
-```cmake
-add_subdirectory(my_libs/torquis)
-add_executable(my_fancy_executable main.cpp)
+target_include_directories(my_fancy_executable PRIVATE ${torquis_targz_SOURCE_DIR}/include)
 target_include_directories(my_fancy_executable PRIVATE ${torquis_INCLUDE_DIRS})
 ```
